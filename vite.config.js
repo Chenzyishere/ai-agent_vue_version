@@ -8,6 +8,7 @@ import Components from 'unplugin-vue-components/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+    base: '/ai-agent_vue_version/',
   plugins: [
     vue(),//Vue3支持
     vueDevTools(),//Vue支持工具
